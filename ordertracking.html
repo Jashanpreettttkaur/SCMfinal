@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Order Tracking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .order-tracking-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .order-status {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .status-step {
+            text-align: center;
+        }
+
+        .status-step span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .status-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            margin: 0 auto;
+            transition: background-color 0.3s ease;
+        }
+
+        .status-dot.active {
+            background-color: #4caf50;
+        }
+
+        .status-dot.completed {
+            background-color: #2196F3;
+        }
+
+        .btn-update {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .btn-update:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="order-tracking-container">
+        <h1>Order Tracking</h1>
+        <p>Your order is being prepared. Track your order status in real-time below.</p>
+
+        <!-- Order Status Progress -->
+        <div class="order-status">
+            <div class="status-step">
+                <div class="status-dot" id="received-dot"></div>
+                <span>Order Received</span>
+            </div>
+            <div class="status-step">
+                <div class="status-dot" id="preparing-dot"></div>
+                <span>Preparing</span>
+            </div>
+            <div class="status-step">
+                <div class="status-dot" id="ready-dot"></div>
+                <span>Ready for Pickup</span>
+            </div>
+            <div class="status-step">
+                <div class="status-dot" id="completed-dot"></div>
+                <span>Completed</span>
+            </div>
+        </div>
+
+        <!-- Button to simulate order progress -->
+        <button class="btn-update" id="update-status-btn">Update Status</button>
+    </div>
+
+    <script>
+        let currentStep = 0; // Tracks the current step in order progress
+
+        // Array to store the dot elements representing different order stages
+        const statusDots = [
+            document.getElementById('received-dot'),
+            document.getElementById('preparing-dot'),
+            document.getElementById('ready-dot'),
+            document.getElementById('completed-dot')
+        ];
+
+        // Simulate order progress with a function
+        function updateOrderStatus() {
+            if (currentStep < statusDots.length) {
+                statusDots[currentStep].classList.add('active'); // Mark current step as active
+                if (currentStep > 0) {
+                    statusDots[currentStep - 1].classList.add('completed'); // Mark previous steps as completed
+                }
+                currentStep++;
+            } else {
+                alert("Order is complete!");
+            }
+        }
+
+        // Add event listener for the "Update Status" button
+        document.getElementById('update-status-btn').addEventListener('click', updateOrderStatus);
+    </script>
+</body>
+</html>
