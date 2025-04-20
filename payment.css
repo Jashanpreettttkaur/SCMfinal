@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: rgba(242, 192, 255, 0.818);
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right top, #ff7e5f, #feb47b);
     background-image:url(money.jpg);
@@ -18,7 +18,7 @@ body {
     border-radius: 15px;
     overflow: hidden;
     animation: fadeIn 0.7s ease-in-out;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(242, 192, 255, 0.818));
     backdrop-filter: blur(10px);
 }
 
