@@ -1,0 +1,91 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right top, #ff7e5f, #feb47b);
+    background-image:url(money.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    overflow: hidden;
+    animation: fadeIn 0.7s ease-in-out;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card-header {
+    background-color:hotpink;
+    color: white;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color:hotpink;
+    box-shadow: 0 0 5px rgba(230, 57, 70, 0.5);
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+.btn-primary {
+    background-color:hotpink;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color:hotpink;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.4);
+}
+
+.btn-primary:active {
+    background-color:hotpink;
+    transform: translateY(0);
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+}
