@@ -69,7 +69,7 @@ body {
 .login-form button {
     width: 100%;
     padding: 10px;
-    background-color:red;
+    background-color:#01fd1e;
     border: none;
     color: white;
     font-size: 16px;
@@ -96,7 +96,7 @@ body {
 }
 
 .login-form p a {
-    color: red;
+    color: #01fd1e;
     text-decoration: none;
 }
 
@@ -137,7 +137,7 @@ ul.social-icon {
     margin-bottom: 15px;
 }
 .footer-top strong {
-    color: #f60002;
+    color: #01fd1e;
 }
 .footer-top ul li a {
     color:#000;
@@ -168,14 +168,14 @@ ul.social-icon {
     width: 60%;
 }
 .footer-top ul li a:hover {
-    color: #fd0301;
+    color: #01fd1e;
     transition: 0.3s;
 }
 .footer-bottom .row {
     padding: 0 15px;
 }
 .footer-bottom {
-    background: #f60002;
+    background: #01fd1e;
     padding: 20px 0;
 }
 .footer-bottom .row {
