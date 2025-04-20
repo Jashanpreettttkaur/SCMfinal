@@ -1,7 +1,7 @@
 body {
     background-color: rgba(242, 192, 255, 0.818);
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to right top, #ff7e5f, #feb47b);
+    background-image: linear-gradient(to right top, rgba(242, 192, 255, 0.818), rgba(242, 192, 255, 0.818));
     background-image:url(money.jpg);
     
     background-size: cover;
