@@ -50,7 +50,7 @@ body {
 
 .form-control:focus {
     border-color:hotpink;
-    box-shadow: 0 0 5px rgba(230, 57, 70, 0.5);
+    box-shadow: 0 0 5px hsla(173, 78%, 56%, 0.6);
 }
 
 .form-group label {
@@ -72,7 +72,7 @@ body {
 .btn-primary:hover {
     background-color:hotpink;
     transform: translateY(-3px);
-    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.4);
+    box-shadow: 0 4px 15px hsla(173, 78%, 56%, 0.6);
 }
 
 .btn-primary:active {
