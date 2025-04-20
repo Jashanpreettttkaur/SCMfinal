@@ -7,6 +7,26 @@ Behind the scenes, PERFECT BITE employs a powerful source code management (SCM) 
 - AI-Driven Recommendations: Personalized food suggestions based on user preferences.
 - Efficient Backend Management: Optimized database and cloud-based deployment for scalability.
 
+ User-Friendly Interface: Intuitive design for quick and convenient ordering.
+- Secure Transactions: Robust security protocols to protect user data and payments.
+- Real-Time Order Tracking: Stay updated with live order status and estimated delivery times.
+- AI-Driven Recommendations: Personalized food suggestions based on user preferences.
+- Efficient Backend Management: Optimized database and cloud-based deployment for scalability.
+ User-Friendly Interface: Intuitive design for quick and convenient ordering.
+- Secure Transactions: Robust security protocols to protect user data and payments.
+- Real-Time Order Tracking: Stay updated with live order status and estimated delivery times.
+- AI-Driven Recommendations: Personalized food suggestions based on user preferences.
+- Efficient Backend Management: Optimized database and cloud-based deployment for scalability.
+ User-Friendly Interface: Intuitive design for quick and convenient ordering.
+- Secure Transactions: Robust security protocols to protect user data and payments.
+- Real-Time Order Tracking: Stay updated with live order status and estimated delivery times.
+- AI-Driven Recommendations: Personalized food suggestions based on user preferences.
+- Efficient Backend Management: Optimized database and cloud-based deployment for scalability.
+ User-Friendly Interface: Intuitive design for quick and convenient ordering.
+- Secure Transactions: Robust security protocols to protect user data and payments.
+- Real-Time Order Tracking: Stay updated with live order status and estimated delivery times.
+- AI-Driven Recommendations: Personalized food suggestions based on user preferences.
+- Efficient Backend Management: Optimized database and cloud-based deployment for scalability.
 
 
 
