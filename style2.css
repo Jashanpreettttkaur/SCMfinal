@@ -85,7 +85,7 @@ h2{
 .collections, .treanding-outlets{
     margin: 2rem auto;
     max-width: 120px;
-    background-color: rgb(152, 8, 8);
+    background-color: rgb(249, 245, 245);
     border-radius: 8px;
     box-shadow: 0,2px,10px rgba(0,0,0,0.1);
     align-items: center;
@@ -127,7 +127,7 @@ h2{
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #ff6347;
+    background-color: #d65bc1;
     color: white;
     position: relative;
     bottom: 0;
