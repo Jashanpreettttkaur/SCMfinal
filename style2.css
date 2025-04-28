@@ -175,6 +175,57 @@ nav {
 .category img:hover {
     transform: scale(1.05);
 }
+.outlets {
+    margin: 3rem auto 2rem;
+    max-width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+}
+
+.outlets h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d65bc1;
+    text-align: left;
+}
+
+.outlet-type {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.outlet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
+.outlet img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.outlet img:hover {
+    transform: scale(1.05);
+}
+
+.outlet h3 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+
 
 .uu {
     display: flex;
