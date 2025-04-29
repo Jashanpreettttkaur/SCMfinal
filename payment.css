@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: azure;
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right top, rgba(242, 192, 255, 0.818), rgba(242, 192, 255, 0.818));
     background-image:url(money.jpg);
@@ -44,7 +44,7 @@ body {
 .form-control {
     border-radius: 5px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid plum;
     transition: border-color 0.3s ease;
 }
 
