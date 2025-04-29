@@ -1,0 +1,59 @@
+name: PERFECT BITE
+description: |
+  PERFECT BITE is a modern web-based food ordering platform that combines intuitive design, real-time capabilities, and AI-driven personalization to deliver a smooth and enjoyable ordering experience.
+  Built with a robust software architecture and efficient source code management, our platform evolves rapidly to meet user needs.
+
+version: 1.0
+technologies_used:
+  frontend:
+    - HTML5
+    - CSS3
+    - JavaScript
+    - React.js
+  version_control:
+    - Gitbash
+    - GitHub
+  deployment:
+    - Docker
+    - AWS
+    - Heroku
+    - Vercel
+  security:
+    - HTTPS
+    - JWT Authentication
+    - OAuth2.0
+
+key_features:
+  - User-Friendly Interface: Designed for quick and convenient navigation.
+  - Secure Transactions: Implements strong protocols to protect user data and payments.
+  - Real-Time Order Tracking: Live updates on order status and estimated delivery time.
+  - AI-Driven Recommendations: Personalized suggestions based on user preferences.
+  - Efficient Backend Management: Cloud-based and scalable infrastructure.
+  - CI/CD: Fast delivery using continuous integration and deployment workflows.
+
+team_members:
+  - name: Parikshit
+    role: Developer
+  - name: Jashanpreet Kaur
+    role: Developer
+  - name: Ujjwaldeep Kaur
+    role: Developer
+
+development_contribution:
+  source_control: GitHub
+  collaboration_method: |
+    Developers work collaboratively via branches and pull requests. All updates go through review and testing before deployment.
+
+local_setup:
+  instructions: |
+    1. Clone the repository from GitHub.
+    2. Install dependencies: `npm install`
+    3. Run the app locally: `npm start`
+
+roadmap:
+  - Mobile App (iOS and Android)
+  - Rewards and Loyalty System
+  - Multi-language Support
+  - Admin Dashboard Enhancements
+  - Third-party Delivery Integration
+
