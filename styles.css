@@ -75,7 +75,7 @@ header nav a:hover {
 
 .promo-card h3 {
     font-size: 24px;
-    color: #ff6f61;
+    color: palevioletred;
 }
 
 .promo-card p {
@@ -95,7 +95,7 @@ header nav a:hover {
 
 .promo-card .cta-button {
     display: inline-block;
-    background-color: #ff6f61;
+    background-color: palevioletred;
     color: white;
     padding: 12px 20px;
     border-radius: 5px;
@@ -106,17 +106,17 @@ header nav a:hover {
 }
 
 .promo-card .cta-button:hover {
-    background-color: #e65c4e;
+    background-color: palevioletred;
 }
 
 /* Seasonal Special Styling */
 .promo-card.seasonal {
     background-color: #ffe5d9;
-    border-left: 5px solid #ff6f61;
+    border-left: 5px solid palevioletred;
 }
 
 .promo-card.seasonal h3 {
-    color: #e65c4e;
+    color: palevioletred;
 }
 
 /* Footer Styles */
