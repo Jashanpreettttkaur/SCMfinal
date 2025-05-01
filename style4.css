@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    background-color: #f55add;
     margin: 0;
     padding: 0;
   }
@@ -8,7 +8,7 @@ body {
   .container {
     max-width: 960px;
     margin: 40px auto;
-    background: white;
+    background: rgb(237, 113, 187);
     padding: 30px;
     border-radius: 10px;
   }
@@ -33,7 +33,7 @@ body {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #e37bcc;
     border-radius: 6px;
   }
   
@@ -59,7 +59,7 @@ body {
   }
   
   button {
-    background-color: #28a745;
+    background-color: #e24cd8;
     color: white;
     padding: 14px 20px;
     border: none;
@@ -71,6 +71,6 @@ body {
   }
   
   button:hover {
-    background-color: #218838;
+    background-color: #fd50d5;
   }
   
