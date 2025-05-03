@@ -9,7 +9,7 @@ Technologies Used
 
 Frontend: HTML5, CSS3, JavaScript, React.js
 Version Control: Gitbash and GitHub
-Deployment: Docker, AWS, Heroku, or Vercel
+
 Security: HTTPS, JWT Authentication, OAuth2.0
 
 
