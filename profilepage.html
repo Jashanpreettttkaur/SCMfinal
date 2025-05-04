@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Perfect Bite - User Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: palevioletred;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #ff6347;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .order, .address, .payment {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .order h4, .address h4, .payment h4 {
+      margin: 0 0 5px;
+    }
+
+    .order span, .address span, .payment span {
+      display: block;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    The Perfect Bite - User Profile
+  </header>
+
+  <div class="container">
+    
+    <div class="section">
+      <h2>Past Orders</h2>
+      <div class="order">
+        <h4>Margherita Pizza - ₹299</h4>
+        <span>Date: 20 Apr 2025</span>
+        <span>Status: Delivered</span>
+      </div>
+      <div class="order">
+        <h4>Paneer Tikka Wrap - ₹199</h4>
+        <span>Date: 12 Apr 2025</span>
+        <span>Status: Delivered</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Saved Addresses</h2>
+      <div class="address">
+        <h4>Home</h4>
+        <span>123, Green Street, New Delhi, 110001</span>
+      </div>
+      <div class="address">
+        <h4>Office</h4>
+        <span>456, Blue Avenue, Gurgaon, 122001</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Payment Methods</h2>
+      <div class="payment">
+        <h4>Visa Ending in 1234</h4>
+        <span>Expiry: 12/26</span>
+      </div>
+      <div class="payment">
+        <h4>UPI: yourname@upi</h4>
+        <span>Preferred</span>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -13,7 +13,7 @@ body {
     display: flex;
     width: 800px;
     box-shadow: 0px 0px 15px pink;
-    background-color: white;
+    background-color: aliceblue;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -51,7 +51,7 @@ body {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: 1px solid palevioletred;
     font-size: 14px;
     box-sizing: border-box;
 }
@@ -69,7 +69,7 @@ body {
 .login-form button {
     width: 100%;
     padding: 10px;
-    background-color:#01fd1e;
+    background-color: green;
     border: none;
     color: white;
     font-size: 16px;
@@ -96,7 +96,7 @@ body {
 }
 
 .login-form p a {
-    color: #01fd1e;
+    color: green;
     text-decoration: none;
 }
 
