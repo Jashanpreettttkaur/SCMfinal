@@ -1,6 +1,6 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(to right, #69c8ff, #47edf6);
+    background: linear-gradient(to right, #61baee, #47edf6);
     margin: 0;
     padding: 0;
     display: flex;
@@ -35,7 +35,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 h1 {
-    color:rgb(230, 103, 166);
+    color:rgb(246, 138, 192);
     margin-top: 20px;
     font-size: 28px;
     font-weight: 700;
@@ -55,7 +55,7 @@ p {
     margin-top: 30px;
     padding: 14px 28px;
     color: #ffffff;
-    background-color:rgb(237, 127, 182);
+    background-color:rgb(253, 120, 186);
     border-radius: 6px;
     text-decoration: none;
     font-size: 18px;
@@ -64,7 +64,7 @@ p {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .btn:hover {
-    background-color:rgb(245, 60, 152);
+    background-color:rgb(249, 120, 184);
     transform: translateY(-2px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
