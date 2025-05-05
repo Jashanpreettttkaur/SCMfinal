@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #dfc6c6;
     color: #333;
     line-height: 1.6;
 }
@@ -20,7 +20,7 @@ body {
 /* Header Styles */
 header {
     background-color: palevioletred;
-    color: white;
+    color: azure;
     text-align: center;
     padding: 20px 0;
 }
@@ -34,7 +34,7 @@ header nav {
 }
 
 header nav a {
-    color: white;
+    color: azure;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -75,7 +75,7 @@ header nav a:hover {
 
 .promo-card h3 {
     font-size: 24px;
-    color: palevioletred;
+    color: rgb(213, 55, 108);
 }
 
 .promo-card p {
