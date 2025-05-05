@@ -4,13 +4,12 @@ PERFECT BITE
 About the Project
 
 PERFECT BITE is a modern web-based food ordering platform that combines intuitive design, real-time capabilities, and AI-driven personalization to deliver a smooth and enjoyable ordering experience. Built with a robust software architecture and efficient source code management, our platform evolves rapidly to meet user needs.PERFECT BITE is a modern web-based food ordering platform that combines intuitive design, real-time capabilities, and AI-driven personalization to deliver a smooth and enjoyable ordering experience. Built with a robust software architecture and efficient source code management, our platform evolves rapidly to meet user needs.
-mmmmm
 
 Technologies Used
 
 Frontend: HTML5, CSS3, JavaScript, React.js
 Version Control: Gitbash and GitHub
-Deployment: Docker, AWS, Heroku, or Vercel
+
 Security: HTTPS, JWT Authentication, OAuth2.0
 
 

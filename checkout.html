@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout - THE PERFECT BITE</title>
+  <link rel="stylesheet" href="style4.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Checkout!</h1>
+
+    <div class="checkout-wrapper">
+      
+      <!-- Delivery Form -->
+      <div class="delivery-info">
+        <h2>Delivery Information!!</h2>
+        <form id="deliveryForm">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="text" id="address" placeholder="Address" required />
+          <input type="text" id="city" placeholder="City" required />
+          <input type="text" id="zip" placeholder="ZIP Code" required />
+          <input type="tel" id="phone" placeholder="Phone Number" required />
+        </form>
+      </div>
+
+      <!-- Order Summary -->
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+        <ul id="orderList">
+          <li>Pizza Margherita x1 <span>Rs.430</span></li>
+          <li>Pasta x1<span>Rs.200</span></li>
+          <li>Delivery Fee <span>Rs.80</span></li>
+        </ul>
+        <div class="total">
+          Total: <span id="totalPrice">Rs.</span>
+        </div>
+
+        <!-- Payment -->
+        <div class="payment-method">
+          <h3>Payment Method</h3>
+          <label><input type="radio" name="payment" value="card" checked /> Credit/Debit Card</label><br />
+          <label><input type="radio" name="payment" value="cash" /> Cash on Delivery</label><br />
+          <label><input type="radio" name="payment" value="paypal" /> PayPal</label>
+        </div>
+
+        <button onclick="placeOrder()">Place Order</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script4.js"></script>
+</body>
+</html>
