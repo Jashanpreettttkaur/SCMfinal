@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background:#b033ac;
+    background:#e71995;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -41,7 +41,7 @@ main {
 }
 
 button {
-    background-color: #dd86da;
+    background-color: #e71995;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: #843a81;
+    background-color: #e71995;
 }
 
 #basket {
